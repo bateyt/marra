@@ -1,0 +1,5 @@
+book_filename: "marra"
+language:
+  ui:
+    chapter_name: ""
+output_dir: "docs"

@@ -1,0 +1,31 @@
+# Introduction {#intro}
+
+<!----You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
+
+Figures and tables with captions will be placed in `figure` and `table` environments, respectively.
+
+```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}
+par(mar = c(4, 4, .1, .1))
+plot(pressure, type = 'b', pch = 19)
+```
+
+Reference a figure by its code chunk label with the `fig:` prefix, e.g., see Figure \@ref(fig:nice-fig). Similarly, you can reference tables generated from `knitr::kable()`, e.g., see Table \@ref(tab:nice-tab).
+
+```{r nice-tab, tidy=FALSE}
+knitr::kable(
+  head(iris, 20), caption = 'Here is a nice table!',
+  booktabs = TRUE
+)
+```
+
+You can write citations, too. For example, we are using the **bookdown** package [@R-bookdown] in this sample book, which was built on top of R Markdown and **knitr** [@xie2015].-->
+
+## General Background
+
+The author joined the Tell Umm el-Marra Expedition as bioarchaeologist for the 2006 field season. During that time, the author collected osteological data on human skeletal remains recovered from the Early Bronze mortuary complex, as well as several other skeletal assemblages *not* associated with the Early Bronze period and/or recovered from localities outside of the site's acropolis center. All skeletal remains analyzed in 2006 are curated on site, except a small collection of skeletal and dental remains, now curated by Glenn Schwartz, project co-director.
+
+Barbara Stuart provided initial field descriptions of the human remains, and other preliminary assessments were made by Bruno Frohlich and Judith Littleton of the Smithsonian Institution [@schwartz2007hidden]. The goal was to re-analyze all human remains recovered from the tomb complex in order to investigate a number of topics, including demography, diet, health and paleopathology, possible familial relationships, and lifestyle reconstruction.
+
+## Methods
+
+All data were collected by the author according to protocols outlined in *Standards for Data Collection from Human Skeletal Remains* [@standards1994]. The following report includes a summary of those observations and some results of recent analyses of the data.

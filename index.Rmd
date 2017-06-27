@@ -1,0 +1,13 @@
+--- 
+title: "Bioarchaeology of Umm el-Marra"
+author: "Ernest K. Batey, III"
+date: "`r format(Sys.Date(), '%d %B %Y')`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [book.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: bateyt/marra
+description: "A summary report on the bioarchaeological analysis of human remains recovered during the Tell Umm el-Marra Expedition, a joint archaeological project between The Johns Hopkins University and the University of Coppenhagen."
+---
